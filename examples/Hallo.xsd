@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema" 
+ xmlns:vc="http://www.w3.org/2007/XMLSchema-versioning" 
+ elementFormDefault="qualified" vc:minVersion="1.1" >
+
+<xs:element name="Hallo">
+<xs:complexType>
+<xs:element name="Node">
+<xs:complexType>
+<xs:sequence id="node2Dec">
+</xs:sequence>
+<xs:attribute name="name" use="optional"/> 
+</xs:complexType>
+</xs:element>
+<xs:attribute name="name" use="optional"/> 
+</xs:complexType>
+</xs:element>
+</xs:schema>
